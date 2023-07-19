@@ -1,16 +1,22 @@
 .navbar-container{
     display: flex;
     justify-content: space-between;
-    background-color: #eee5e5e7;
+    background-color: hwb(0 96% 1% / 0.973);
 }
 .navbar-container img{
     width: 60px;
     height: 30px; 
-    margin-top: 19px; 
+    
 }
 .logo-container{
     display: flex;
     width: 50%;
+    gap: 10px;
+    margin-left: 40px;
+    align-items: center;
+}
+.logo-container h1 span{
+    color: #F948B2;
 }
 .menu-items{
     display: flex;
@@ -23,11 +29,24 @@
     display: flex;
     list-style: none;
     justify-content: space-around;
+    padding-left: 250px;
+    padding-top: 17px;
    
+}
+
+.icon{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
 }
 .menu-items a{
     text-decoration: none;
     padding-right: 25px;
+    text-align: center;
     
 }
 .nav-icon{
@@ -41,6 +60,24 @@
     width: 50%;
     text-align: center;
     padding-top: 150px;
+}
+.banner-text h1{
+    color:#F948B2;
+}
+.btn-primary{
+    color: white;
+    background-color:#F948B2 ;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.btn-secondary{
+    color: white;
+    background-color:#4EC5F7 ;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
 }
 .banner-img2{
     display: flex;
@@ -62,6 +99,14 @@
 }
 .gammer-text{
     width: 50%;
+}
+.gammer-text h1{
+    color: #F948B2;
+
+}
+.online-gammer-text span{
+    color: #F948B2 ;
+
 }
 .online-games-section{
     display: flex;
@@ -87,6 +132,9 @@
     justify-content: space-around;
     margin-top: 150px;
 }
+.play-text span{
+    color: #F948B2;
+}
 .play-img-overlay{
     position: relative;
     bottom: 210px;
@@ -97,4 +145,103 @@
 .play-img-overlay img{
     width: 100%;
     height: 100%;
+}
+
+.carrier-section , .carrier-text-list{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: white;
+}
+.carrier-img{
+    width: 550px;
+    height: 450px;
+   
+}
+.carrier-img img{
+    width: 100%;
+    height: 100%;
+}
+.carrier-text{
+    width: 50%;
+}
+.carrier-text-item{
+    text-align: left;
+}
+.btn-tertiary{
+    background-color: white;
+    color:#F948B2;
+    margin-top: 25px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.five-type , .game-type-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    max-width: 1250px;;
+}
+.four-type{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+ .game-type-items:hover{
+    border: 1px solid #F948B2;
+    border-radius: 25px;
+ }   
+    
+    
+
+}
+.game-type-items p{
+    font-size: 1.20em;
+    /* text-align: center; */
+    /* width: 100%; */
+    background: #FFF;
+    height: 95%;
+    width: 95%;
+    margin-left: 20px;
+
+    
+}
+
+.game-type-items p:hover{
+    border-radius: 50px;
+    /* border: 1px solid #F948B2; */
+}
+
+.footer-menu-list{
+    display: flex;
+    max-width: 650px;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 300px;
+    list-style: none;
+
+
+}
+.icon-list{
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+}
+/* footer style start here */
+.footer-container{
+    background-color: #0B0223;
+    color: white;
+    height: 150px;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+.footer-menu-list a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
