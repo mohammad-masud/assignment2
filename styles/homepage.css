@@ -82,3 +82,19 @@
 .online-gammer-text{
     text-align: center;
 }
+.play-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.play-img-overlay{
+    position: relative;
+    bottom: 210px;
+    right   : 130px;
+    width: 250px;
+    height: 250px;
+}
+.play-img-overlay img{
+    width: 100%;
+    height: 100%;
+}
