@@ -1,0 +1,84 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee5e5e7;
+}
+.navbar-container img{
+    width: 60px;
+    height: 30px; 
+    margin-top: 19px; 
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+}
+.menu-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 50%;
+
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+   
+}
+.menu-items a{
+    text-decoration: none;
+    padding-right: 25px;
+    
+}
+.nav-icon{
+    border: 1px solid grey;
+}
+/* nav style end here */
+.banner{
+    display: flex;
+}
+.banner-text{
+    width: 50%;
+    text-align: center;
+    padding-top: 150px;
+}
+.banner-img2{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* gammer section style start here */
+
+.gammer-container{
+    display: flex;
+    margin-top: 100px;
+
+}
+.gammer-img{
+    width: 50%;
+}
+.gammer-img img {
+    width: 100%;
+}
+.gammer-text{
+    width: 50%;
+}
+.online-games-section{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.games-part{
+    width: 250px;
+    height: 350px;
+    gap: 10px;
+}
+.games-part img{
+    width: 100%;
+    height: 100%;
+
+}
+.online-gammer-text{
+    text-align: center;
+}
