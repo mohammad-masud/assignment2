@@ -238,9 +238,12 @@
 }
 .icon-list{
     display: flex;
-    max-width: 500px;
+    max-width: 1200px;
     margin: 0 auto;
     list-style: none;
+    gap: 25px;
+    padding-left: 600px;
+    
 }
 /* footer style start here */
 .footer-container{
@@ -259,6 +262,18 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+.terms-condition-items{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    color: grey;
+}
+.rights{
+    color: rgb(184, 133, 133);
+    background-color:#0B0223 ;
+    text-align: center;
 }
 
 /* responsive css start here */
