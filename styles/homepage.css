@@ -246,3 +246,23 @@
     justify-content: center;
     gap: 10px;
 }
+
+/* responsive css start here */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .navbar-container , .menu-items, .menu-list{
+        flex-direction: column;
+    }
+
+    .logo-container{
+        padding-left: 70px;
+    }
+    .menu-list{
+        margin-right: 10px;
+        padding-left: 120px;
+        width: 100%;
+    }
+    .icon{
+        padding-left: 130px;
+    }
+    
+}
